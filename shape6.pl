@@ -37,6 +37,6 @@ $cxn_shape->set_end_side( 'l' );     # l)eft or t)op.
 $worksheet->insert_shape( 'A1', $cxn_shape, 0, 0 );
 
 #image
-$worksheet->insert_image('A1', 'image.png', 300, 100);
+$worksheet->insert_image('A1', 'image.png', 400, 100, 2.6, 1.4 );
 
 __END__
